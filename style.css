@@ -194,7 +194,7 @@ section{ padding:104px 0; position:relative; }
 .hero-bg-img{
   position:absolute;
   inset:0;
-  background:url('assets/IMG_1.png') center/cover no-repeat;
+  background:url('assets/IMG_1.png') center 35%/cover no-repeat;
   z-index:0;
 }
 .hero-overlay{
@@ -528,6 +528,20 @@ section{ padding:104px 0; position:relative; }
   background:var(--black);
   border-top:1px solid var(--line);
 }
+.journey-img-wrap{
+  max-width:820px;
+  margin:0 auto 48px;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  box-shadow:0 20px 60px -16px rgba(0,0,0,.7);
+}
+.journey-img{
+  width:100%;
+  height:auto;
+  display:block;
+  object-fit:cover;
+}
 .journey-videos-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -672,6 +686,21 @@ section{ padding:104px 0; position:relative; }
   transition:color .2s ease;
 }
 .contact-email-text a:hover{ color:var(--red-2); }
+.contact-phone-text{
+  font-size:18px;
+  color:var(--grey);
+  position:relative;
+  z-index:1;
+  margin-top:10px;
+}
+.contact-phone-text a{
+  color:var(--white);
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  transition:color .2s ease;
+}
+.contact-phone-text a:hover{ color:var(--red-2); }
 
 /* =========================================================
    FOOTER
